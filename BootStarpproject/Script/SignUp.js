@@ -53,9 +53,6 @@ class User {
 }
 
 
-// let u = new User();
-// u.signUp('aa','aaa')
-// u.login('aa','aaa')
 
 function SignUpStudent() {
       let signupArr=JSON.parse(localStorage.getItem("SignUpId"))||[];
